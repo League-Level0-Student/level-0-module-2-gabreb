@@ -22,8 +22,14 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
+			
+		
+		}
 		
 
+	private static void tryCode() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	static void tryCode(int guess) {

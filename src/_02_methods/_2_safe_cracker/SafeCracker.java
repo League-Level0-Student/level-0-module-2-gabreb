@@ -22,16 +22,14 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-			
+			for (int i = 9999999; i > 0; i--) {
+				tryCode(i);
+			}
 		
 		}
 		
 
-	private static void tryCode() {
-		// TODO Auto-generated method stub
-		
-	}
-
+	
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
 
